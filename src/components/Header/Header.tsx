@@ -6,8 +6,8 @@ export function Header() {
   return (
     <div className="flex items-center ">
       <div className="flex justify-between items-center w-screen">
-        <div className="logo ml-[100px]">
-          <Image src={Logo} alt="logoClosetSustentavel"/>
+        <div className="logo">
+          <Image src={Logo} alt="logoClosetSustentavel" />
         </div>
         <div className="nav_buttons ">
           <nav className="">
