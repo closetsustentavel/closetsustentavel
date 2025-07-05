@@ -1,16 +1,21 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Archivo_Black, Questrial } from 'next/font/google';
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
+const archivoBlack = Archivo_Black({
+  weight: '400', // 
+  subsets: ['latin'],
+  variable: '--font-archivo-black',
+  display: 'swap', 
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const questrial = Questrial({
+  weight: '400', // Questrial também geralmente só tem um peso (400)
+  subsets: ['latin'],
+  variable: '--font-questrial', // Nome da variável CSS para Questrial
+  display: 'swap',
 });
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,9 +30,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${archivoBlack.variable} ${questrial.variable} antialiased`}
       >
-       <main className="ml-[100px]">
+       <main className="">
          {children}
        </main>
       </body>
