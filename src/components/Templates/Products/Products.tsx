@@ -3,11 +3,11 @@ import { productData } from "@/utils/data/products-data"
 import { CardProduct } from "@/components/atoms/CardProduct"
 export function Products(){
     return(
-        <div className="flex flex-col mt-50 !ml-0">
-            <div>
+        <div className="flex flex-col mt-50">
+            <div className="ml-[355px]">
                 <h3 className="text-6xl">Conheça o Closet Sustentável</h3>
             </div>
-                <div className="w-[1250px] flex flex-wrap">
+                <div className="w-[1250px] flex flex-wrap m-auto">
                 {productData.map((item,index)=>{
                     return(
                         <div key={index} className="flex-1/2 justify-center p-5">
@@ -17,12 +17,10 @@ export function Products(){
                 })}
             </div>
             
-            <div className="flex justify-center bg-[#DC5812] w-[250px] p-[25px] !m-0">
-                <span>Saiba Mais</span>
+            <div className="flex justify-center bg-[#DC5812] w-[250px] p-[25px] !m-auto text-[#F3F1E0]">
+                <a href=""><span>Saiba Mais</span></a>
             </div>
             
         </div>
     )
 }
-
-//bg-[#DC5812]

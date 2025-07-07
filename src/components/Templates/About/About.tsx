@@ -3,7 +3,7 @@ import Shop from "@/assets/window_shop_closet.svg";
 import Image from "next/image";
 export function About() {
   return (
-    <div className="flex flex-row ml-[255px] mt-50 w-[700px] h-full gap-5">
+    <div className="flex flex-row ml-[355px] mt-50 w-[700px] h-full gap-5 ">
       <div className="flex flex-col">
         <h3 className="text-[52px] mb-[15px]">Quem somos</h3>
         <div className="">

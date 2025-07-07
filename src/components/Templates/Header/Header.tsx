@@ -4,7 +4,7 @@ import Logo from "@/assets/Logo.svg";
 import columnRight from "@/assets/columnRight.svg";
 export function Header() {
   return (
-    <div className="flex items-center ">
+    <div className="flex items-center ml-[100px] ">
       <div className="flex justify-between items-center w-screen">
         <div className="logo">
           <Image src={Logo} alt="logoClosetSustentavel" />
