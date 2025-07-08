@@ -4,6 +4,7 @@ import { Hero } from "@/components/Templates/Hero/Hero";
 import { About } from "@/components/Templates/About/About";
 import { Products } from "@/components/Templates/Products/Products";
 import { Feedbacks } from "@/components/Templates/Feedbacks/Feedbacks";
+import { Faq } from "@/components/Templates/Faq/Faq";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <About/>
       <Products/>
       <Feedbacks/>
+      <Faq/>
     </div>
   );
 }
