@@ -1,11 +1,12 @@
-import Brecho from "@/assets/brecho.svg";
-import Analysis from "@/assets/color_analysis.svg";
-import MakeLook from "@/assets/make_look.svg";
-import Detox from "@/assets/detox.svg";
+import Brecho from "@/assets/brecho.png";
+import Analysis from "@/assets/color_analysis.png";
+import MakeLook from "@/assets/make_look.png";
+import Detox from "@/assets/detox.png";
 import Luggage from "@/assets/luggage.svg";
-import PersonalShopper from "@/assets/personal_shopper.svg";
+import PersonalShopper from "@/assets/personal_shopper.png";
+import { StaticImageData } from "next/image";
 export type productType = {
-  image: string;
+  image: StaticImageData;
   title: string;
   description: string;
 };

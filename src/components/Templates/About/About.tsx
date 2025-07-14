@@ -1,5 +1,5 @@
 "use client";
-import Shop from "@/assets/window_shop_closet.svg";
+import Shop from "@/assets/window_shop_closet.png";
 import Image from "next/image";
 import rowColumn from "@/assets/columnFeedbacks.svg";
 

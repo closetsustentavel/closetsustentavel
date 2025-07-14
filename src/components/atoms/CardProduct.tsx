@@ -1,7 +1,7 @@
 "use client";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 export type CardProductType = {
-  image: string;
+  image: StaticImageData;
   title: string;
   description: string;
 };
