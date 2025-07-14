@@ -43,5 +43,4 @@ p {
   font-family: var(--font-questrial), sans-serif;
 }
 
-
-@import 'aos/dist/aos.css';
+@import "aos/dist/aos.css";

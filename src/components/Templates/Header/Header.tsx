@@ -19,9 +19,7 @@ export function Header() {
   };
   return (
     <div className="flex items-center ml-0 lg:ml-[80px]">
-      <div
-        className="flex justify-between items-center sm:w-screen"
-      >
+      <div className="flex justify-between items-center sm:w-screen">
         <div className="mr-25 sm:mr-0">
           <Image
             src={Logo}
@@ -33,22 +31,34 @@ export function Header() {
           <nav className="">
             <ul className="flex gap-[30px] mr-[31px]">
               <li>
-                <Link href="" className="3xl:text-3xl hover:text-[#DC5812] underline" >
+                <Link
+                  href=""
+                  className="3xl:text-3xl hover:text-[#DC5812] underline"
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link href="#about" className="3xl:text-3xl hover:text-[#DC5812]">
+                <Link
+                  href="#about"
+                  className="3xl:text-3xl hover:text-[#DC5812]"
+                >
                   Sobre
                 </Link>
               </li>
               <li>
-                <Link href="#products" className="3xl:text-3xl hover:text-[#DC5812]">
+                <Link
+                  href="#products"
+                  className="3xl:text-3xl hover:text-[#DC5812]"
+                >
                   Produtos
                 </Link>
               </li>
               <li>
-                <Link href="#contact" className="3xl:text-3xl hover:text-[#DC5812]">
+                <Link
+                  href="#contact"
+                  className="3xl:text-3xl hover:text-[#DC5812]"
+                >
                   Contato
                 </Link>
               </li>
@@ -70,7 +80,9 @@ export function Header() {
           }`}
         >
           <nav>
-            <ul className={`${isOpen ? "flex flex-col gap-5 p-10 text-[#f3f1e0]" : "hidden"}`}>
+            <ul
+              className={`${isOpen ? "flex flex-col gap-5 p-10 text-[#f3f1e0]" : "hidden"}`}
+            >
               <span onClick={menuHamburguer}>X</span>
               <li>
                 <Link href="" onClick={menuHamburguer}>

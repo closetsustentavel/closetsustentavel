@@ -12,17 +12,16 @@ export function About() {
     >
       <div className="flex flex-col w-screen">
         <div
-        className="w-screen mt-20 sm:hidden"
-        style={{
-          backgroundImage: `url(${rowColumn.src})`,
-          backgroundRepeat: "repeat-x",
-          backgroundSize: "cover",
-          height: "50px",
-          
-        }}
-        data-aos = "fade-right"
-      ></div>
-        <h3 className="text-3xl mb-[15px] p-5 sm:p-0 md:text-5xl 3xl:text-[100px]" >
+          className="w-screen mt-20 sm:hidden"
+          style={{
+            backgroundImage: `url(${rowColumn.src})`,
+            backgroundRepeat: "repeat-x",
+            backgroundSize: "cover",
+            height: "50px",
+          }}
+          data-aos="fade-right"
+        ></div>
+        <h3 className="text-3xl mb-[15px] p-5 sm:p-0 md:text-5xl 3xl:text-[100px]">
           Quem somos
         </h3>
         <div className="lg:flex md:items-center m-auto md:p-5 md:text-wrap md:gap-5 lg:p-0 ">
