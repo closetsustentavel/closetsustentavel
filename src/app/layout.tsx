@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Archivo_Black, Questrial } from "next/font/google";
 import "./globals.css";
-import AOSInitializer from '@/components/AOSInitializer';
+import AOSInitializer from "@/components/AOSInitializer";
 const archivoBlack = Archivo_Black({
   weight: "400", //
   subsets: ["latin"],
@@ -10,22 +10,22 @@ const archivoBlack = Archivo_Black({
 });
 
 const questrial = Questrial({
-  weight: "400", 
+  weight: "400",
   subsets: ["latin"],
-  variable: "--font-questrial", 
+  variable: "--font-questrial",
   display: "swap",
 });
 
 export const metadata: Metadata = {
   title: "Closet Sustentável",
   description: "O melhor brechó de Salvador",
-  icons: "/logofavi.svg"
+  icons: "/logofavi.svg",
 };
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
-}>){
+}>) {
   return (
     <html lang="en" style={{ scrollBehavior: "smooth" }}>
       <body
@@ -34,7 +34,7 @@ export default function RootLayout({
         <main className="">
           <AOSInitializer />
           {children}
-          </main>
+        </main>
       </body>
     </html>
   );

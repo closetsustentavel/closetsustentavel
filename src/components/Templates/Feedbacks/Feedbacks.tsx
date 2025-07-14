@@ -27,7 +27,6 @@ export function Feedbacks() {
           backgroundImage: `url(${rowColumn.src})`,
           backgroundRepeat: "repeat-x",
           backgroundSize: "cover",
-         
         }}
       ></div>
     </div>

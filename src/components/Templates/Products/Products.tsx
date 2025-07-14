@@ -31,12 +31,14 @@ export function Products() {
         })}
       </div>
 
-        <Link href="https://wa.me/5571982302442?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20ter%20algumas%20informa%C3%A7%C3%B5es." target="_blank">
-      <div className="flex justify-center bg-[#DC5812] w-50 md:w-[250px] p-[25px] !m-auto text-[#F3F1E0]">
-        <span>SAIBA MAIS</span>
-      </div>
-
-        </Link>
+      <Link
+        href="https://wa.me/5571982302442?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20ter%20algumas%20informa%C3%A7%C3%B5es."
+        target="_blank"
+      >
+        <div className="flex justify-center bg-[#DC5812] w-50 md:w-[250px] p-[25px] !m-auto text-[#F3F1E0]">
+          <span>SAIBA MAIS</span>
+        </div>
+      </Link>
     </div>
   );
 }
