@@ -1,21 +1,20 @@
 import type { Metadata } from "next";
-import { Archivo_Black, Questrial } from 'next/font/google';
+import { Archivo_Black, Questrial } from "next/font/google";
 import "./globals.css";
 
 const archivoBlack = Archivo_Black({
-  weight: '400', // 
-  subsets: ['latin'],
-  variable: '--font-archivo-black',
-  display: 'swap', 
+  weight: "400", //
+  subsets: ["latin"],
+  variable: "--font-archivo-black",
+  display: "swap",
 });
 
 const questrial = Questrial({
-  weight: '400', // Questrial também geralmente só tem um peso (400)
-  subsets: ['latin'],
-  variable: '--font-questrial', // Nome da variável CSS para Questrial
-  display: 'swap',
+  weight: "400", // Questrial também geralmente só tem um peso (400)
+  subsets: ["latin"],
+  variable: "--font-questrial", // Nome da variável CSS para Questrial
+  display: "swap",
 });
-
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -28,13 +27,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" style={{ scrollBehavior: "smooth" }}>
       <body
-        className={`${archivoBlack.variable} ${questrial.variable} antialiased`}
+        className={`${archivoBlack.variable} ${questrial.variable} antialiased scroll-smooth`}
       >
-       <main className="">
-         {children}
-       </main>
+        <main className="">{children}</main>
       </body>
     </html>
   );

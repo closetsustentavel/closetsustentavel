@@ -1,7 +1,7 @@
 @import "tailwindcss";
 :root {
-  --background: #F3F1E0;
-  --foreground: #6D3252;
+  --background: #f3f1e0;
+  --foreground: #6d3252;
 }
 
 @theme inline {
@@ -11,10 +11,16 @@
   --font-questrial: var(--font-questrial);
 }
 
+@theme {
+  --breakpoint-xs: 30rem;
+  --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 120rem;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #F3F1E0;
-    --foreground: #6D3252;
+    --background: #f3f1e0;
+    --foreground: #6d3252;
   }
 }
 
@@ -25,7 +31,9 @@ body {
   font-family: Archivo-Black, Questrial, sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: var(--font-archivo-black), sans-serif;
   font-weight: 400;
 }

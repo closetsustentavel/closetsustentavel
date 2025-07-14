@@ -10,15 +10,15 @@ import { Footer } from "@/components/Templates/Footer/Footer";
 
 export default function Home() {
   return (
-    <div>
-      <Header/>
-      <Hero/>
-      <About/>
-      <Products/>
-      <Feedbacks/>
-      <Faq/>
-      <Brands/>
-      <Footer/>
+    <div className="overflow-x-hidden">
+      <Header />
+      <Hero />
+      <About />
+      <Products />
+      <Feedbacks />
+      <Faq />
+      <Brands />
+      <Footer />
     </div>
   );
 }
