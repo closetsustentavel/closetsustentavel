@@ -1,15 +1,19 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Archivo_Black, Questrial } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const archivoBlack = Archivo_Black({
+  weight: "400", //
   subsets: ["latin"],
+  variable: "--font-archivo-black",
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const questrial = Questrial({
+  weight: "400", // Questrial também geralmente só tem um peso (400)
   subsets: ["latin"],
+  variable: "--font-questrial", // Nome da variável CSS para Questrial
+  display: "swap",
 });
 
 export const metadata: Metadata = {
@@ -23,11 +27,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" style={{ scrollBehavior: "smooth" }}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${archivoBlack.variable} ${questrial.variable} antialiased scroll-smooth`}
       >
-        {children}
+        <main className="">{children}</main>
       </body>
     </html>
   );
