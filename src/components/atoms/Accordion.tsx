@@ -47,7 +47,7 @@ export function AccordionAtom({ title, text }: AccordionType) {
             w-full text-[16px] md:px-8                         
           "
         >
-          {text}
+          <p dangerouslySetInnerHTML={{ __html: text }}></p>
         </AccordionContent>
       </AccordionItem>
     </Accordion>
