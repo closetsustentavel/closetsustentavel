@@ -10,7 +10,7 @@ export const faqData: accordionType[] = [
   },
   {
     title: "Qual horário de funcionamento?",
-    text: "De terça a sábado nos seguintes horários: Terça - 13h às 17h Quarta - 11h às 17h Quinta e Sexta - 10h às 17h Sábado 10h às 13h Obs: Não funcionamos em dias de Live Shop e de atendimento dos serviços de consultoria. Informamos pelos stories e grupo VIP do Whats App, sempre que estivermos com a loja física fechada.",
+    text: `De terça a sábado nos seguintes horários:<br />Terça - 13h às 17h<br /> Quarta - 11h às 17h<br /> Quinta e Sexta - 10h às 17h <br />Sábado 10h às 13h<br /> Obs: Não funcionamos em dias de Live Shop e de atendimento dos serviços de consultoria. Informamos pelos stories e grupo VIP do WhatsApp, sempre que estivermos com a loja física fechada.`,
   },
   {
     title: "Vocês fazem troca de peça?",
