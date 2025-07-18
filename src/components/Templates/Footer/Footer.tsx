@@ -79,7 +79,7 @@ export function Footer() {
       <div className="relative">
         <Link
           target="_blank"
-          href="https://wa.me/5571982302442?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20ter%20algumas%20informa%C3%A7%C3%B5es."
+          href="https://wa.me/5571991698239?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20ter%20algumas%20informa%C3%A7%C3%B5es."
         >
           <div className="fixed right-0 bottom-10 z-999">
             <Image
