@@ -7,7 +7,7 @@ import Whatsapp from "@/assets/whatsapp.svg";
 import Link from "next/link";
 export function Footer() {
   return (
-    <div id="contact" className="mt-30">
+    <footer id="contact" className="mt-30">
       <div className="flex flex-col justify-center items-center w-screen gap-5">
         <div
           className="flex flex-col justify-center items-center gap-3"
@@ -91,6 +91,6 @@ export function Footer() {
           </div>
         </Link>
       </div>
-    </div>
+    </footer>
   );
 }

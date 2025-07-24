@@ -5,7 +5,7 @@ import rowColumn from "@/assets/columnFeedbacks.svg";
 
 export function About() {
   return (
-    <div
+    <section
       id="about"
       className="flex flex-col mt-50 h-full sm:gap-5 justify-center m-auto md:p-5 xl:ml-56  sm:flex-row lg:w-[700px] 3xl:w-screen"
       data-aos="fade-right"
@@ -49,6 +49,6 @@ export function About() {
       <div className="hidden h-[80vh] w-screen m-auto lg:flex 2xl:h-[800px]">
         <Image src={Shop} alt="Fachada Loja" />
       </div>
-    </div>
+    </section>
   );
 }

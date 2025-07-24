@@ -33,7 +33,7 @@ export function Brands() {
     },
   });
   return (
-    <div
+    <section
       ref={sliderRef}
       className="keen-slider justify-center items-center mt-50"
     >
@@ -55,6 +55,6 @@ export function Brands() {
       <div className="keen-slider__slide number-slide6">
         <Image src={Forever} alt="Forever21"></Image>
       </div>
-    </div>
+    </section>
   );
 }

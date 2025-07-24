@@ -4,7 +4,7 @@ import { CardProduct } from "@/components/atoms/CardProduct";
 import Link from "next/link";
 export function Products() {
   return (
-    <div id="products" className="flex flex-col mt-12">
+    <section id="products" className="flex flex-col mt-12">
       <div className="m-auto p-5 lg:ml-40 xl:ml-56">
         <h3 className="text-2xl text-wrap md:text-5xl 3xl:text-[100px]">
           Conheça o Closet Sustentável
@@ -39,6 +39,6 @@ export function Products() {
           <span>SAIBA MAIS</span>
         </div>
       </Link>
-    </div>
+    </section>
   );
 }

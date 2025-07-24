@@ -18,7 +18,7 @@ export function Header() {
     }
   };
   return (
-    <div className="flex items-center ml-0 lg:ml-[80px]">
+    <header className="flex items-center ml-0 lg:ml-[80px]">
       <div className="flex justify-between items-center sm:w-screen">
         <div className="mr-25 sm:mr-0">
           <Image
@@ -121,6 +121,6 @@ export function Header() {
           className="hidden top-0 right-0 sm:absolute sm:block"
         />
       </div>
-    </div>
+    </header>
   );
 }
