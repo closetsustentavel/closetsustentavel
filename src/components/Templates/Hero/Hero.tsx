@@ -9,19 +9,12 @@ export function Hero() {
           className="text-[40px] leading-none my-0 text-wrap md:text-6xl lg:text-7xl xl:text-8xl 3xl:text-[150px]"
           data-aos="fade-right"
         >
-          Tranformando a
-        </h1>
-        <h1
-          className="text-[40px] leading-none my-0 text-wrap md:text-6xl lg:text-7xl xl:text-8xl 3xl:text-[150px]"
-          data-aos="fade-right"
-        >
-          vida de mulheres
-        </h1>
-        <h1
-          className="text-[40px] leading-none my-0 text-wrap md:text-6xl lg:text-7xl xl:text-8xl 3xl:text-[150px]"
-          data-aos="fade-right"
-        >
-          diariamente
+          <span className="">Transformando a </span>
+          <br />
+          <span>vida de mulheres </span>
+          <br />
+          <span>diariamente</span>
+          <br />
         </h1>
       </div>
       <div className="flex justify-center items-center pt-20 sm:hidden">
