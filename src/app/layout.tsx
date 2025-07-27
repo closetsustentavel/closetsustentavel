@@ -18,7 +18,7 @@ const questrial = Questrial({
 });
 
 export const metadata: Metadata = {
-  title: "Closet Sustentável",
+  title: "Closet Sustentável | O melhor brechó de Salvador",
   description:
     "O melhor brechó de Salvador, localizado em Itapuã. Transformando a vida de mulheres diariamente.",
   icons: Logo,
@@ -26,13 +26,13 @@ export const metadata: Metadata = {
   referrer: "origin-when-cross-origin",
   generator: "Next.js",
   alternates: {
-    canonical: "https://www.closetsustentavel.com.br",
+    canonical: "https://closetsustentavel.com.br",
   },
   robots: {
     index: process.env.NEXT_PUBLIC_ENVIRONMENT === "DEV" ? false : true,
   },
   openGraph: {
-    url: "https://www.closetsustentavel.com.br",
+    url: "https://closetsustentavel.com.br",
     siteName: "Closet Sustentável",
     locale: "pt_BR",
     type: "website",
@@ -44,7 +44,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" style={{ scrollBehavior: "smooth" }}>
+    <html lang="pt-BR" style={{ scrollBehavior: "smooth" }}>
       <body
         className={`${archivoBlack.variable} ${questrial.variable} antialiased scroll-smooth`}
       >
