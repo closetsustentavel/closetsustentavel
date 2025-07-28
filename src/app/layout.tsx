@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Archivo_Black, Questrial } from "next/font/google";
 import "./globals.css";
 import AOSInitializer from "@/components/AOSInitializer";
-import Logo from "@/app/favicon.svg";
 const archivoBlack = Archivo_Black({
   weight: "400",
   subsets: ["latin"],
@@ -21,7 +20,10 @@ export const metadata: Metadata = {
   title: "Closet Sustentável | O melhor brechó de Salvador",
   description:
     "O melhor brechó de Salvador, localizado em Itapuã. Transformando a vida de mulheres diariamente.",
-  icons: Logo,
+   icons: {
+    icon: '/icon.svg',
+    shortcut: '/favicon.ico', 
+  },
   viewport: "width=device-width, initial-scale=1",
   referrer: "origin-when-cross-origin",
   generator: "Next.js",
